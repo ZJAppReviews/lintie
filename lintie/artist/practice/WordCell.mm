@@ -46,6 +46,8 @@
         [GridDrawTool drawMiWithCxt:UIGraphicsGetCurrentContext() rect:self.bounds color:nil];
     } else if (self.gridType == GridTypeTian) {
         [GridDrawTool drawTianWithCxt:UIGraphicsGetCurrentContext() rect:self.bounds color:nil];
+    } else if (self.gridType == GridTypeKou) {
+        [GridDrawTool drawKouWithCxt:UIGraphicsGetCurrentContext() rect:self.bounds color:nil];
     }
 }
 

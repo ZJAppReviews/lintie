@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    __auto_type tv = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStyleGrouped];
+    __auto_type tv = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain];
     [self.view addSubview:tv];
     self.tableView = tv;
     self.tableView.delegate = self;
@@ -35,6 +35,8 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     __auto_type cell = [tableView dequeueReusableCellWithIdentifier:@"kCellIdentify" forIndexPath:indexPath];
     cell.textLabel.text = [UserConfig instance].fontInfos[static_cast<NSUInteger>(indexPath.row)].fontLabel;
+    cell.textLabel.font = [UIFont fontWithName:[UserConfig instance].fontInfos[static_cast<NSUInteger>(indexPath.row)].fontName
+                                          size:17];
     return cell;
 }
 

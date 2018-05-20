@@ -38,10 +38,10 @@
 		2DE2EF0423A885FDA8DDDDA9 /* jj1.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2EAD7F211908E258AAB8B /* jj1.html */; };
 		2DE2EF7A1D4AAD68B91A1DE6 /* 田英章行书.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E1390669F4EC50DDF4B5 /* 田英章行书.ttf */; };
 		2DE2EF8FD05EE7F3C9CD7A6F /* jj6.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E01F18D5CE6012991DBE /* jj6.html */; };
+		CE1DAB3A20B1D2F90068AE0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1DAB3920B1D2F90068AE0E /* Assets.xcassets */; };
 		CE4107FB20B1966F0066B51D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4107FA20B196300066B51D /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		CEB7E0F920B1328D00DCA508 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB7E0F820B1328D00DCA508 /* AppDelegate.m */; };
 		CEB7E0FF20B1328D00DCA508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E0FD20B1328D00DCA508 /* Main.storyboard */; };
-		CEB7E10120B1328D00DCA508 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E10020B1328D00DCA508 /* Assets.xcassets */; };
 		CEB7E10420B1328D00DCA508 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E10220B1328D00DCA508 /* LaunchScreen.storyboard */; };
 		CEB7E10720B1328D00DCA508 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB7E10620B1328D00DCA508 /* main.m */; };
 		CEB7E11120B1328D00DCA508 /* lintieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB7E11020B1328D00DCA508 /* lintieTests.m */; };
@@ -110,12 +110,12 @@
 		2DE2EE2F5E1900291D67EAD3 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		2DE2EE57A6033071F22C6C14 /* 毛泽东学书.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "毛泽东学书.ttf"; sourceTree = "<group>"; };
 		2DE2EED6627C17D0BEE23927 /* jj5.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jj5.html; sourceTree = "<group>"; };
+		CE1DAB3920B1D2F90068AE0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		CE4107FA20B196300066B51D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		CEB7E0F420B1328D00DCA508 /* lintie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lintie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB7E0F720B1328D00DCA508 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEB7E0F820B1328D00DCA508 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CEB7E0FE20B1328D00DCA508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CEB7E10020B1328D00DCA508 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB7E10320B1328D00DCA508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEB7E10520B1328D00DCA508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEB7E10620B1328D00DCA508 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -289,10 +289,10 @@
 		CEB7E0F620B1328D00DCA508 /* lintie */ = {
 			isa = PBXGroup;
 			children = (
+				CE1DAB3920B1D2F90068AE0E /* Assets.xcassets */,
 				CEB7E0F720B1328D00DCA508 /* AppDelegate.h */,
 				CEB7E0F820B1328D00DCA508 /* AppDelegate.m */,
 				CEB7E0FD20B1328D00DCA508 /* Main.storyboard */,
-				CEB7E10020B1328D00DCA508 /* Assets.xcassets */,
 				CEB7E10220B1328D00DCA508 /* LaunchScreen.storyboard */,
 				CEB7E10520B1328D00DCA508 /* Info.plist */,
 				CEB7E10620B1328D00DCA508 /* main.m */,
@@ -384,7 +384,7 @@
 		CEB7E0EC20B1328D00DCA508 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Away;
 				TargetAttributes = {
 					CEB7E0F320B1328D00DCA508 = {
@@ -429,8 +429,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEB7E10420B1328D00DCA508 /* LaunchScreen.storyboard in Resources */,
-				CEB7E10120B1328D00DCA508 /* Assets.xcassets in Resources */,
 				CEB7E0FF20B1328D00DCA508 /* Main.storyboard in Resources */,
+				CE1DAB3A20B1D2F90068AE0E /* Assets.xcassets in Resources */,
 				2DE2EF7A1D4AAD68B91A1DE6 /* 田英章行书.ttf in Resources */,
 				2DE2EC3081FED570700A0AB6 /* 田英章楷书.ttf in Resources */,
 				2DE2EDE58796C61802FD92BC /* 启功字体.ttf in Resources */,
@@ -556,6 +556,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -563,6 +564,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -611,6 +613,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -618,6 +621,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

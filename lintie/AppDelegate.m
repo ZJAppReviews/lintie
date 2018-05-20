@@ -25,19 +25,20 @@
     __auto_type artistVC = [[ArtistViewController alloc] init];
     artistVC.title = @"名家";
     __auto_type navigationController1 = [[BaseNavigationController alloc] initWithRootViewController:artistVC];
-    navigationController1.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"名家" image:nil selectedImage:nil];
-
-
+    navigationController1.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"名家" image:[UIImage imageNamed:@"mingjia"] selectedImage:nil];
+    navigationController1.navigationBar.tintColor = [UIColor blackColor];
 
     __auto_type archVC = [[ArchViewController alloc] init];
     archVC.title = @"间架";
     __auto_type navigationController2 = [[BaseNavigationController alloc] initWithRootViewController:archVC];
-    navigationController2.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"间架" image:nil selectedImage:nil];
+    navigationController2.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"间架" image:[UIImage imageNamed:@"arch"] selectedImage:nil];
+    navigationController2.navigationBar.tintColor = [UIColor blackColor];
 
     UITabBarController *tabBarController = [[BaseTabBarController alloc] init];
 
     tabBarController.viewControllers = @[navigationController1, navigationController2];
 
+    [tabBarController.tabBar setTintColor:[UIColor blackColor]];
 
     self.window.rootViewController = tabBarController;
 

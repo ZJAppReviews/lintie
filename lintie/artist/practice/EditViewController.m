@@ -22,6 +22,7 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"确定" style:UIBarButtonItemStylePlain target:self action:@selector(actionSubmit:)];
 
     self.textView.text = self.text;
+    self.textView.font = [UIFont systemFontOfSize:24];
 }
 
 - (void)actionSubmit:(id)actionSubmit {

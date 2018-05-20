@@ -13,8 +13,6 @@
 
 @property(nonatomic, strong) UICollectionView *collectionView;
 
-@property(nonatomic, strong) UIToolbar *toolBar;
-
 @property(nonatomic, strong) NSString *text;
 
 @property (nonatomic, weak) UITextField *textField;
@@ -67,6 +65,14 @@
 }
 
 
+- (void)actionKouGrid:(id)actionKouGrid {
+    if ([UserConfig instance].gridType != GridTypeKou) {
+        [UserConfig instance].gridType = GridTypeKou;
+        [self.collectionView reloadData];
+    }
+}
+
+
 - (void)actionEdit:(id)actionEdit {
     __auto_type editVC = [[EditViewController alloc] init];
     editVC.text = self.text;
@@ -103,6 +109,8 @@
     cell.textLabel.text = [self.text substringWithRange:NSMakeRange((NSUInteger) indexPath.row, 1)];
     cell.fontName = self.fontInfo.fontName;
     cell.gridType = [UserConfig instance].gridType;
+    // TODO: modify
+    [cell setNeedsDisplay];
     cell.textLabel.textColor = [UserConfig instance].color;
 
     return cell;
@@ -120,13 +128,13 @@
 
     __auto_type editBtn = [[UIButton alloc] initWithFrame:CGRectMake(5 + self.view.bounds.size.width - 200, NavigationBar_Height + StatusBar_Height + 5, 90, 40)];
     [editBtn setTitle:@"编辑" forState:UIControlStateNormal];
-    [editBtn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [editBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [editBtn addTarget:self action:@selector(actionEdit:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:editBtn];
 
     __auto_type showBtn = [[UIButton alloc] initWithFrame:CGRectMake(5 + self.view.bounds.size.width - 200 + 5 + 95, NavigationBar_Height + StatusBar_Height + 5, 90, 40)];
     [showBtn setTitle:@"显示" forState:UIControlStateNormal];
-    [showBtn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [showBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [showBtn addTarget:self action:@selector(actionShow:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:showBtn];
 }
@@ -134,15 +142,26 @@
 
 - (void)setupToolBar {
     UIToolbar *toolbar = [[UIToolbar alloc] initWithFrame:CGRectMake(0, self.view.bounds.size.height - 60, Screen_Width, 60)];
+    __auto_type changeColorItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"color"] style:UIBarButtonItemStylePlain target:self action:@selector(actionChangeColor:)];
+    __auto_type noGridItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"empty"] style:UIBarButtonItemStylePlain target:self action:@selector(actionNoGrid:)];
+    __auto_type kouGridItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"kou"] style:UIBarButtonItemStylePlain target:self action:@selector(actionKouGrid:)];
+    __auto_type tianGridItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"tian"] style:UIBarButtonItemStylePlain target:self action:@selector(actionTianGrid:)];
+    __auto_type miGridItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"mi"] style:UIBarButtonItemStylePlain target:self action:@selector(actionMiGrid:)];
     __auto_type items = @[
-            [[UIBarButtonItem alloc] initWithTitle:@"颜色" style:UIBarButtonItemStylePlain target:self action:@selector(actionChangeColor:)],
-            [[UIBarButtonItem alloc] initWithTitle:@"无格" style:UIBarButtonItemStylePlain target:self action:@selector(actionNoGrid:)],
-            [[UIBarButtonItem alloc] initWithTitle:@"田字格" style:UIBarButtonItemStylePlain target:self action:@selector(actionTianGrid:)],
-            [[UIBarButtonItem alloc] initWithTitle:@"米字格" style:UIBarButtonItemStylePlain target:self action:@selector(actionMiGrid:)]
+            changeColorItem,
+            noGridItem,
+            kouGridItem,
+            tianGridItem,
+            miGridItem,
     ];
     [toolbar setItems:items];
+
+    toolbar.tintColor = [UIColor blackColor];
+
     [self.view addSubview:toolbar];
 }
+
+
 
 - (void)setupCollectionView {
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];

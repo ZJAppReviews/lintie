@@ -9,6 +9,7 @@
 
 typedef NS_ENUM(NSUInteger, GridType) {
     GridTypeNone,
+    GridTypeKou,
     GridTypeMi,
     GridTypeTian
 };
@@ -27,4 +28,5 @@ typedef NS_ENUM(NSUInteger, GridType) {
 
 + (void)drawMiWithCxt:(CGContextRef)cxt rect:(CGRect)rect color:(UIColor *)color;
 
++ (void)drawKouWithCxt:(CGContextRef)cxt rect:(CGRect)rect color:(UIColor *)color;
 @end

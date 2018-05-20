@@ -105,5 +105,9 @@
 
 }
 
++ (void)drawKouWithCxt:(CGContextRef)cxt rect:(CGRect)rect color:(UIColor *)color {
+    [self drawRectWithCxt:cxt rect:rect dash:NO color:color];
+}
+
 
 @end
