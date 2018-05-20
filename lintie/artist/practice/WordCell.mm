@@ -31,6 +31,7 @@
 }
 
 - (void)setupView {
+    self.backgroundColor = [UIColor whiteColor];
     UILabel *label = [[UILabel alloc] init];
     label.frame = self.bounds;
     [self.contentView addSubview:label];
