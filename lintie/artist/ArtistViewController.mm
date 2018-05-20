@@ -46,6 +46,7 @@
     controller.fontInfo = [UserConfig instance].fontInfos[static_cast<NSUInteger>(indexPath.row)];
     [self.navigationController pushViewController:controller animated:YES];
 
+    [UserConfig instance].fontInfo = controller.fontInfo;
 }
 
 

@@ -7,5 +7,5 @@
 #import "BaseViewController.h"
 
 
-@interface ArchViewController : BaseViewController
+@interface ArchViewController : BaseViewController <UITableViewDelegate, UITableViewDataSource>
 @end

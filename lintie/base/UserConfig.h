@@ -28,7 +28,7 @@
 
 @property(nonatomic, copy) NSArray<FontInfo *> *fontInfos;
 
-@property(nonatomic, copy) FontInfo *fontInfo;
+@property(nonatomic, strong) FontInfo *fontInfo;
 
 @property (nonatomic, assign) UIColor *color;
 
