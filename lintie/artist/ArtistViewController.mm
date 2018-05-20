@@ -5,7 +5,7 @@
 
 #import "ArtistViewController.h"
 #import "UserConfig.h"
-#import "LintieViewController.h"
+#import "LinTieViewController.h"
 
 @interface ArtistViewController () <UITableViewDelegate, UITableViewDataSource>
 @property(nonatomic, weak) UITableView *tableView;
@@ -41,7 +41,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 
-    LintieViewController *controller = [[LintieViewController alloc] init];
+    LinTieViewController *controller = [[LinTieViewController alloc] init];
+    controller.hidesBottomBarWhenPushed = YES;
     controller.fontInfo = [UserConfig instance].fontInfos[static_cast<NSUInteger>(indexPath.row)];
     [self.navigationController pushViewController:controller animated:YES];
 

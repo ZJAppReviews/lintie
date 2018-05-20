@@ -4,7 +4,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaseViewController.h"
 
-@interface ArtistViewController : BaseViewController
+
+@interface BaseViewController : UIViewController
 @end

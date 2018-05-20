@@ -4,11 +4,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
 @class FontInfo;
 
 
-@interface LintieViewController : UIViewController
+@interface LinTieViewController : BaseViewController
 
 @property (nonatomic, strong) FontInfo *fontInfo;
 

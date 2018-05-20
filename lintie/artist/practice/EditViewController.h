@@ -4,9 +4,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
 
-@interface EditViewController : UIViewController
+@interface EditViewController : BaseViewController
 
 
 

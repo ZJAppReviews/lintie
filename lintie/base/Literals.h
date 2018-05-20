@@ -1,5 +1,8 @@
 
 
+#define Screen_Width    MIN([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)
+#define Screen_Height   MAX([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)
+
 #define FoneName_JL @"FZJLJW--GB1-0"
 #define FoneLabel_JL @"徐静蕾字体"
 
@@ -11,6 +14,5 @@
 
 #define FoneName_QG_KS @"JQiTi"
 #define FoneLabel_QG_KS @"启功字体"
-
 
 

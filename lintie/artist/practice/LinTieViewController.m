@@ -3,34 +3,41 @@
 // Copyright (c) 2018 Away. All rights reserved.
 //
 
-#import "LintieViewController.h"
+#import "LinTieViewController.h"
 #import "WordCell.h"
 #import "Literals.h"
 #import "UserConfig.h"
 
-@interface LintieViewController () <UICollectionViewDelegate, UICollectionViewDataSource>
+@interface LinTieViewController () <UICollectionViewDelegate, UICollectionViewDataSource>
 
 @property(nonatomic, strong) UICollectionView *collectionView;
 
-@property (nonatomic, strong) NSString *text;
+@property (nonatomic, strong) UIToolbar *toolBar;
 
+@property (nonatomic, strong) NSString *text;
 
 @end
 
-@implementation LintieViewController
+@implementation LinTieViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    self.view.backgroundColor = [UIColor whiteColor];
+
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
 
-    //设置布局方向为垂直流布局
     layout.scrollDirection = UICollectionViewScrollDirectionVertical;
-    //设置每个item的大小为100*100
-    layout.itemSize = CGSizeMake(100, 100);
+
+    CGFloat edge = (CGFloat) floor((Screen_Width - 5 * 3) / 4);
+    layout.itemSize = CGSizeMake(edge, edge);
+    layout.minimumInteritemSpacing = 5;
+    layout.minimumLineSpacing = 5;
+
 
     self.collectionView = [[UICollectionView alloc] initWithFrame:self.view.frame
                                              collectionViewLayout:layout];
+    self.collectionView.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.collectionView];
 
     [self.collectionView registerClass:WordCell.class forCellWithReuseIdentifier:@"kCellIdentify"];
@@ -39,9 +46,37 @@
     self.collectionView.dataSource = self;
 
 
-    self.text = @"天道路酬勤";
+    self.text = @"天道酬勤";
+
+    UIToolbar *toolbar = [[UIToolbar alloc] initWithFrame:CGRectMake(0, self.view.bounds.size.height - 60, Screen_Width, 60)];
+    __auto_type items = @[
+            [[UIBarButtonItem alloc] initWithTitle:@"颜色" style:UIBarButtonItemStylePlain target:self action:@selector(actionChangeColor:)],
+            [[UIBarButtonItem alloc] initWithTitle:@"无格" style:UIBarButtonItemStylePlain target:self action:@selector(actionNoGrid:)],
+            [[UIBarButtonItem alloc] initWithTitle:@"田字格" style:UIBarButtonItemStylePlain target:self action:@selector(actionTianGrid:)],
+            [[UIBarButtonItem alloc] initWithTitle:@"米字格" style:UIBarButtonItemStylePlain target:self action:@selector(actionMiGrid:)]
+    ];
+    [toolbar setItems:items];
+    [self.view addSubview:toolbar];
+}
+
+- (void)actionChangeColor:(id)sender {
+
+    NSLog(@"color");
+}
+
+- (void)actionNoGrid:(id)sender {
 
 }
+
+
+- (void)actionTianGrid:(id)sender {
+
+}
+
+- (void)actionMiGrid:(id)sender {
+
+}
+
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     return self.text.length;

@@ -4,7 +4,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
 
-@interface ArchViewController : UIViewController
+@interface ArchViewController : BaseViewController
 @end

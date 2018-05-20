@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "GridDrawTool.h"
 #import "Literals.h"
-#import "LintieViewController.h"
+#import "LinTieViewController.h"
 
 @interface TestView : UIView
 @end
@@ -34,7 +34,7 @@
 
 @implementation ViewController
 - (IBAction)button:(id)sender {
-    [self presentViewController:[[LintieViewController alloc] init] animated:YES completion:nil];
+    [self presentViewController:[[LinTieViewController alloc] init] animated:YES completion:nil];
 }
 
 - (void)viewDidLoad {
