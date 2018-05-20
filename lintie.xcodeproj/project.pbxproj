@@ -38,7 +38,7 @@
 		2DE2EF0423A885FDA8DDDDA9 /* jj1.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2EAD7F211908E258AAB8B /* jj1.html */; };
 		2DE2EF7A1D4AAD68B91A1DE6 /* 田英章行书.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E1390669F4EC50DDF4B5 /* 田英章行书.ttf */; };
 		2DE2EF8FD05EE7F3C9CD7A6F /* jj6.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E01F18D5CE6012991DBE /* jj6.html */; };
-		CE1DAB3A20B1D2F90068AE0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1DAB3920B1D2F90068AE0E /* Assets.xcassets */; };
+		CE38EC3520B1E959003175FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE38EC3420B1E959003175FB /* Assets.xcassets */; };
 		CE4107FB20B1966F0066B51D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4107FA20B196300066B51D /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		CEB7E0F920B1328D00DCA508 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB7E0F820B1328D00DCA508 /* AppDelegate.m */; };
 		CEB7E0FF20B1328D00DCA508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E0FD20B1328D00DCA508 /* Main.storyboard */; };
@@ -110,7 +110,7 @@
 		2DE2EE2F5E1900291D67EAD3 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		2DE2EE57A6033071F22C6C14 /* 毛泽东学书.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "毛泽东学书.ttf"; sourceTree = "<group>"; };
 		2DE2EED6627C17D0BEE23927 /* jj5.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jj5.html; sourceTree = "<group>"; };
-		CE1DAB3920B1D2F90068AE0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		CE38EC3420B1E959003175FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4107FA20B196300066B51D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		CEB7E0F420B1328D00DCA508 /* lintie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lintie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB7E0F720B1328D00DCA508 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -289,7 +289,7 @@
 		CEB7E0F620B1328D00DCA508 /* lintie */ = {
 			isa = PBXGroup;
 			children = (
-				CE1DAB3920B1D2F90068AE0E /* Assets.xcassets */,
+				CE38EC3420B1E959003175FB /* Assets.xcassets */,
 				CEB7E0F720B1328D00DCA508 /* AppDelegate.h */,
 				CEB7E0F820B1328D00DCA508 /* AppDelegate.m */,
 				CEB7E0FD20B1328D00DCA508 /* Main.storyboard */,
@@ -430,8 +430,8 @@
 			files = (
 				CEB7E10420B1328D00DCA508 /* LaunchScreen.storyboard in Resources */,
 				CEB7E0FF20B1328D00DCA508 /* Main.storyboard in Resources */,
-				CE1DAB3A20B1D2F90068AE0E /* Assets.xcassets in Resources */,
 				2DE2EF7A1D4AAD68B91A1DE6 /* 田英章行书.ttf in Resources */,
+				CE38EC3520B1E959003175FB /* Assets.xcassets in Resources */,
 				2DE2EC3081FED570700A0AB6 /* 田英章楷书.ttf in Resources */,
 				2DE2EDE58796C61802FD92BC /* 启功字体.ttf in Resources */,
 				2DE2E51A43BFA2CF39021870 /* jj0.html in Resources */,
