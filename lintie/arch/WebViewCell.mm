@@ -51,7 +51,18 @@
         // scrollView lazy initialize
         self.webView.scrollView.scrollEnabled = NO;
     }
-
 }
+
+
+- (void)setData:(NSData *)data {
+    _data = data;
+    if (_data) {
+        [self.webView loadHTMLString:[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]
+                             baseURL:nil];
+        // scrollView lazy initialize
+        self.webView.scrollView.scrollEnabled = NO;
+    }
+}
+
 
 @end

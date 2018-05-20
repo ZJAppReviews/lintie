@@ -9,5 +9,5 @@
 @interface WebViewCell : UITableViewCell
 
 @property (nonatomic, strong) NSURL *url;
-
+@property (nonatomic, strong) NSData *data;
 @end

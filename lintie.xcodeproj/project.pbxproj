@@ -26,6 +26,7 @@
 		2DE2ECB0BD768FAADD9078BE /* jj2.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2EA29CA8C56552BBCEA6B /* jj2.html */; };
 		2DE2ECDC1FAEBDEA31939A70 /* jj4.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E08C5AE6405FD77F1F79 /* jj4.html */; };
 		2DE2EDE58796C61802FD92BC /* 启功字体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E1082F63C03D002CD456 /* 启功字体.ttf */; };
+		2DE2EE24CA81F59EC15C8217 /* 1.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E65DD5154D7F0870B2BE /* 1.html */; };
 		2DE2EE33812A33E63ED8FE37 /* WordCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E2B9D8000176DBB09611 /* WordCell.mm */; };
 		2DE2EE7B8112C53DB03E63CD /* UserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2EBAF0F29BF22E5D15546 /* UserConfig.m */; };
 		2DE2EEA113D0ABB614CF7F67 /* BaseTabBarController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E1968D970A8DBF09FEA7 /* BaseTabBarController.mm */; };
@@ -79,6 +80,7 @@
 		2DE2E50C00AE29E3EA8371F8 /* jj7.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jj7.html; sourceTree = "<group>"; };
 		2DE2E5A29E7BEEB17563A3A8 /* 徐静蕾手写字体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "徐静蕾手写字体.ttf"; sourceTree = "<group>"; };
 		2DE2E5CCF6C5217DC6D4E80A /* jj0.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jj0.html; sourceTree = "<group>"; };
+		2DE2E65DD5154D7F0870B2BE /* 1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1.html; sourceTree = "<group>"; };
 		2DE2E6986CE02105DA3A604C /* WebViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewCell.h; sourceTree = "<group>"; };
 		2DE2E6D60589124E59CA94DE /* FourWordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourWordCell.h; sourceTree = "<group>"; };
 		2DE2E6E543CADDBC1F21567F /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
@@ -209,6 +211,7 @@
 				2DE2E01F18D5CE6012991DBE /* jj6.html */,
 				2DE2E50C00AE29E3EA8371F8 /* jj7.html */,
 				2DE2EACBB1ABD8775A40D059 /* jj8.html */,
+				2DE2E65DD5154D7F0870B2BE /* 1.html */,
 			);
 			path = arch;
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 				2DE2EF8FD05EE7F3C9CD7A6F /* jj6.html in Resources */,
 				2DE2EA9BEE43E14CFA383111 /* jj7.html in Resources */,
 				2DE2EBF9791701B82E75AFC5 /* jj8.html in Resources */,
+				2DE2EE24CA81F59EC15C8217 /* 1.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
