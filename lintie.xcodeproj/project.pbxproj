@@ -8,17 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		2DE2E06B656B1BAD78067C1D /* jj3.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E24708484244126DFF43 /* jj3.html */; };
-		2DE2E0EA015F355AC6AF2B05 /* 田英章楷书简(字体).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2EDC3F2BAAB8923B631C3 /* 田英章楷书简(字体).ttf */; };
 		2DE2E179015336430906EEB9 /* ArtistViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E94BAE00A76205C82FF3 /* ArtistViewController.mm */; };
 		2DE2E187768B952737456FB6 /* WebViewCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2EACEF6F5A72A07AB291A /* WebViewCell.mm */; };
-		2DE2E1A5BC43C04840583669 /* 徐静蕾手写字体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E5A29E7BEEB17563A3A8 /* 徐静蕾手写字体.ttf */; };
 		2DE2E22A8785EFBC6E847C5D /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E6E543CADDBC1F21567F /* EditViewController.m */; };
 		2DE2E4BD0833157510710DCF /* BaseNavigationController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E024C967FC040EAD04E7 /* BaseNavigationController.mm */; };
+		2DE2E4C8D7F907275AC47865 /* 毛泽东学书.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2EE57A6033071F22C6C14 /* 毛泽东学书.ttf */; };
 		2DE2E51A43BFA2CF39021870 /* jj0.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E5CCF6C5217DC6D4E80A /* jj0.html */; };
+		2DE2E67E910922AD22AE84CF /* 井柏然手写体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2EB40F8407523065DB10C /* 井柏然手写体.ttf */; };
+		2DE2E6E528A181EC425CF721 /* 徐静蕾手写体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E9760159AA2C62B487C0 /* 徐静蕾手写体.ttf */; };
 		2DE2E89BCB2990FC8F3D1B5E /* GridDrawTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E138F5FD9CF74929BC2A /* GridDrawTool.mm */; };
 		2DE2E908F9D87183A872E0B5 /* BaseViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2ED981E511458FCE9C769 /* BaseViewController.mm */; };
 		2DE2E923EB79E1C33CD51D13 /* jj5.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2EED6627C17D0BEE23927 /* jj5.html */; };
 		2DE2EA9BEE43E14CFA383111 /* jj7.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E50C00AE29E3EA8371F8 /* jj7.html */; };
+		2DE2EB5F0F8BFEB50F0499E8 /* 德彪行书.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2EBFECA3CA94947FE42C9 /* 德彪行书.ttf */; };
+		2DE2EBF66BCE00B2EA1D730F /* 赵九江行书.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2EBBF34677D5C22BDB307 /* 赵九江行书.ttf */; };
 		2DE2EBF9791701B82E75AFC5 /* jj8.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2EACBB1ABD8775A40D059 /* jj8.html */; };
 		2DE2EC3081FED570700A0AB6 /* 田英章楷书.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E185ED8D29811355200C /* 田英章楷书.ttf */; };
 		2DE2EC7E760C3A2C73CD95B4 /* ArchViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E46810DF793F75A254B6 /* ArchViewController.mm */; };
@@ -31,6 +34,7 @@
 		2DE2EE7B8112C53DB03E63CD /* UserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2EBAF0F29BF22E5D15546 /* UserConfig.m */; };
 		2DE2EEA113D0ABB614CF7F67 /* BaseTabBarController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E1968D970A8DBF09FEA7 /* BaseTabBarController.mm */; };
 		2DE2EEA58218F02C367BC66B /* LinTieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E81B7B3101BBB0D5FDEA /* LinTieViewController.m */; };
+		2DE2EEDC8D223CE8502D54B1 /* 雪纯字体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E9963714FB046010C441 /* 雪纯字体.ttf */; };
 		2DE2EF0423A885FDA8DDDDA9 /* jj1.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2EAD7F211908E258AAB8B /* jj1.html */; };
 		2DE2EF7A1D4AAD68B91A1DE6 /* 田英章行书.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E1390669F4EC50DDF4B5 /* 田英章行书.ttf */; };
 		2DE2EF8FD05EE7F3C9CD7A6F /* jj6.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E01F18D5CE6012991DBE /* jj6.html */; };
@@ -77,7 +81,6 @@
 		2DE2E46810DF793F75A254B6 /* ArchViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ArchViewController.mm; sourceTree = "<group>"; };
 		2DE2E4EB50338E0E55E36B0C /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
 		2DE2E50C00AE29E3EA8371F8 /* jj7.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jj7.html; sourceTree = "<group>"; };
-		2DE2E5A29E7BEEB17563A3A8 /* 徐静蕾手写字体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "徐静蕾手写字体.ttf"; sourceTree = "<group>"; };
 		2DE2E5CCF6C5217DC6D4E80A /* jj0.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jj0.html; sourceTree = "<group>"; };
 		2DE2E65DD5154D7F0870B2BE /* 1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1.html; sourceTree = "<group>"; };
 		2DE2E6986CE02105DA3A604C /* WebViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewCell.h; sourceTree = "<group>"; };
@@ -91,16 +94,21 @@
 		2DE2E8AA309EAA176DAE64AF /* ArchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchViewController.h; sourceTree = "<group>"; };
 		2DE2E94BAE00A76205C82FF3 /* ArtistViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ArtistViewController.mm; sourceTree = "<group>"; };
 		2DE2E94F898A1B56DF713BFF /* LinTieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinTieViewController.h; sourceTree = "<group>"; };
+		2DE2E9760159AA2C62B487C0 /* 徐静蕾手写体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "徐静蕾手写体.ttf"; sourceTree = "<group>"; };
+		2DE2E9963714FB046010C441 /* 雪纯字体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "雪纯字体.ttf"; sourceTree = "<group>"; };
 		2DE2EA29CA8C56552BBCEA6B /* jj2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jj2.html; sourceTree = "<group>"; };
 		2DE2EACBB1ABD8775A40D059 /* jj8.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jj8.html; sourceTree = "<group>"; };
 		2DE2EACEF6F5A72A07AB291A /* WebViewCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WebViewCell.mm; sourceTree = "<group>"; };
 		2DE2EAD7F211908E258AAB8B /* jj1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jj1.html; sourceTree = "<group>"; };
+		2DE2EB40F8407523065DB10C /* 井柏然手写体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "井柏然手写体.ttf"; sourceTree = "<group>"; };
 		2DE2EBAF0F29BF22E5D15546 /* UserConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserConfig.m; sourceTree = "<group>"; };
+		2DE2EBBF34677D5C22BDB307 /* 赵九江行书.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "赵九江行书.ttf"; sourceTree = "<group>"; };
+		2DE2EBFECA3CA94947FE42C9 /* 德彪行书.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "德彪行书.ttf"; sourceTree = "<group>"; };
 		2DE2EC349111A4AB03EF5053 /* Literals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Literals.h; sourceTree = "<group>"; };
 		2DE2ED193E5F7B78A2B8AA9A /* WordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordCell.h; sourceTree = "<group>"; };
 		2DE2ED981E511458FCE9C769 /* BaseViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseViewController.mm; sourceTree = "<group>"; };
-		2DE2EDC3F2BAAB8923B631C3 /* 田英章楷书简(字体).ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "田英章楷书简(字体).ttf"; sourceTree = "<group>"; };
 		2DE2EE2F5E1900291D67EAD3 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		2DE2EE57A6033071F22C6C14 /* 毛泽东学书.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "毛泽东学书.ttf"; sourceTree = "<group>"; };
 		2DE2EED6627C17D0BEE23927 /* jj5.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jj5.html; sourceTree = "<group>"; };
 		CE4107FA20B196300066B51D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		CEB7E0F420B1328D00DCA508 /* lintie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lintie.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -226,9 +234,13 @@
 			children = (
 				2DE2E1390669F4EC50DDF4B5 /* 田英章行书.ttf */,
 				2DE2E185ED8D29811355200C /* 田英章楷书.ttf */,
-				2DE2E5A29E7BEEB17563A3A8 /* 徐静蕾手写字体.ttf */,
 				2DE2E1082F63C03D002CD456 /* 启功字体.ttf */,
-				2DE2EDC3F2BAAB8923B631C3 /* 田英章楷书简(字体).ttf */,
+				2DE2EE57A6033071F22C6C14 /* 毛泽东学书.ttf */,
+				2DE2EBFECA3CA94947FE42C9 /* 德彪行书.ttf */,
+				2DE2E9963714FB046010C441 /* 雪纯字体.ttf */,
+				2DE2EB40F8407523065DB10C /* 井柏然手写体.ttf */,
+				2DE2EBBF34677D5C22BDB307 /* 赵九江行书.ttf */,
+				2DE2E9760159AA2C62B487C0 /* 徐静蕾手写体.ttf */,
 			);
 			path = font;
 			sourceTree = "<group>";
@@ -421,9 +433,7 @@
 				CEB7E0FF20B1328D00DCA508 /* Main.storyboard in Resources */,
 				2DE2EF7A1D4AAD68B91A1DE6 /* 田英章行书.ttf in Resources */,
 				2DE2EC3081FED570700A0AB6 /* 田英章楷书.ttf in Resources */,
-				2DE2E1A5BC43C04840583669 /* 徐静蕾手写字体.ttf in Resources */,
 				2DE2EDE58796C61802FD92BC /* 启功字体.ttf in Resources */,
-				2DE2E0EA015F355AC6AF2B05 /* 田英章楷书简(字体).ttf in Resources */,
 				2DE2E51A43BFA2CF39021870 /* jj0.html in Resources */,
 				2DE2EF0423A885FDA8DDDDA9 /* jj1.html in Resources */,
 				2DE2ECB0BD768FAADD9078BE /* jj2.html in Resources */,
@@ -434,6 +444,12 @@
 				2DE2EA9BEE43E14CFA383111 /* jj7.html in Resources */,
 				2DE2EBF9791701B82E75AFC5 /* jj8.html in Resources */,
 				2DE2EE24CA81F59EC15C8217 /* 1.html in Resources */,
+				2DE2E4C8D7F907275AC47865 /* 毛泽东学书.ttf in Resources */,
+				2DE2EB5F0F8BFEB50F0499E8 /* 德彪行书.ttf in Resources */,
+				2DE2EEDC8D223CE8502D54B1 /* 雪纯字体.ttf in Resources */,
+				2DE2E67E910922AD22AE84CF /* 井柏然手写体.ttf in Resources */,
+				2DE2EBF66BCE00B2EA1D730F /* 赵九江行书.ttf in Resources */,
+				2DE2E6E528A181EC425CF721 /* 徐静蕾手写体.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

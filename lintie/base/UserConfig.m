@@ -47,10 +47,15 @@
     self = [super init];
     if (self) {
         _fontInfos = @[
-                FONT_INFO(FoneName_JL, FoneLabel_JL),
                 FONT_INFO(FoneName_TYZ_XS, FoneLabel_TYZ_XS),
                 FONT_INFO(FoneName_TYZ_KS, FoneLabel_TYZ_KS),
-                FONT_INFO(FoneName_QG_KS, FoneLabel_QG_KS)
+                FONT_INFO(FoneName_QG_KS, FoneLabel_QG_KS),
+                FONT_INFO(FoneName_DB, FoneLabel_DB),
+                FONT_INFO(FoneName_MZD, FoneLabel_MZD),
+                FONT_INFO(FoneName_ZJJ_XS, FoneLabel_ZJJ_XS),
+                FONT_INFO(FoneName_XC, FoneLabel_XC),
+                FONT_INFO(FoneName_JBR, FoneLabel_JBR),
+                FONT_INFO(FoneName_JL, FoneLabel_JL)
         ];
         _gridType = GridTypeMi;
 
