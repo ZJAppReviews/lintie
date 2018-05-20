@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ArtistViewController.h"
+#import "ArchViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,40 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+
+
+    __auto_type artistVC = [[ArtistViewController alloc] init];
+    artistVC.title = @"名家";
+    __auto_type navigationController1 = [[UINavigationController alloc] initWithRootViewController:artistVC];
+    navigationController1.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"名家" image:nil selectedImage:nil];
+
+
+
+    __auto_type archVC = [[ArchViewController alloc] init];
+    artistVC.title = @"间架";
+    __auto_type navigationController2 = [[UINavigationController alloc] initWithRootViewController:archVC];
+    navigationController2.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"间架" image:nil selectedImage:nil];
+
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+
+    tabBarController.viewControllers = @[navigationController1, navigationController2];
+
+
+    self.window.rootViewController = tabBarController;
+
+    [self.window makeKeyAndVisible];
+
+    for(NSString *fontfamilyname in [UIFont familyNames])
+    {
+        NSLog(@"family:'%@'",fontfamilyname);
+        for(NSString *fontName in [UIFont fontNamesForFamilyName:fontfamilyname])
+        {
+            NSLog(@"\tfont:'%@'",fontName);
+        }
+        NSLog(@"-------------");
+    }
+
     return YES;
 }
 

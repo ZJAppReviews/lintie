@@ -6,12 +6,15 @@
 #import "LintieViewController.h"
 #import "WordCell.h"
 #import "Literals.h"
+#import "UserConfig.h"
 
 @interface LintieViewController () <UICollectionViewDelegate, UICollectionViewDataSource>
 
 @property(nonatomic, strong) UICollectionView *collectionView;
 
 @property (nonatomic, strong) NSString *text;
+
+
 @end
 
 @implementation LintieViewController
@@ -37,7 +40,7 @@
 
 
     self.text = @"天道路酬勤";
-    
+
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
@@ -49,8 +52,8 @@
     cell.backgroundColor = [UIColor colorWithRed:arc4random() % 255 / 255.0 green:arc4random() % 255 / 255.0 blue:arc4random() % 255 / 255.0 alpha:1];
 
     cell.textLabel.text = [self.text substringWithRange:NSMakeRange((NSUInteger) indexPath.row, 1)];
-    cell.fontName = FoneName_TYZ_KS;
-    cell.gridType = GridTypeTian;
+    cell.fontName = self.fontInfo.fontName;
+    cell.gridType = [UserConfig instance].gridType;
 
     return cell;
 }

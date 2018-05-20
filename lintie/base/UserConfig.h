@@ -5,10 +5,34 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "GridDrawTool.h"
+
+@interface FontInfo : NSObject
+
+@property(nonatomic, strong) NSString *fontName;
+
+@property(nonatomic, strong) NSString *fontLabel;
+
+- (instancetype)initWithFontName:(NSString *)fontName fontLabel:(NSString *)fontLabel;
+
++ (instancetype)infoWithFontName:(NSString *)fontName fontLabel:(NSString *)fontLabel;
+
+@end
+
+#define FONT_INFO(FONT_NAME, FONT_LABEL) ({ \
+    FontInfo *fontInfo = [FontInfo infoWithFontName:FONT_NAME fontLabel:FONT_LABEL];\
+    fontInfo;})
+
 
 @interface UserConfig : NSObject
 
-@property(nonatomic, copy) NSString *fontName;
+@property(nonatomic, copy) NSArray<FontInfo *> *fontInfos;
+
+@property(nonatomic, copy) FontInfo *fontInfo;
+
+@property (nonatomic, assign) GridType gridType;
+
++ (UserConfig *)instance;
 
 - (NSArray<NSString *> *)fontNames;
 

@@ -8,6 +8,7 @@
 		<string>启功字体.ttf</string>
 		<string>田英章楷书.ttf</string>
 		<string>田英章行书.ttf</string>
+		<string>田英章楷书简(字体).ttf</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>

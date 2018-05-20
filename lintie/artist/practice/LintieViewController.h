@@ -5,6 +5,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class FontInfo;
+
 
 @interface LintieViewController : UIViewController
+
+@property (nonatomic, strong) FontInfo *fontInfo;
+
 @end

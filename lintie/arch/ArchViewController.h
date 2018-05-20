@@ -6,6 +6,5 @@
 #import <UIKit/UIKit.h>
 
 
-@interface TabBarViewController : UITabBarController
-
+@interface ArchViewController : UIViewController
 @end
