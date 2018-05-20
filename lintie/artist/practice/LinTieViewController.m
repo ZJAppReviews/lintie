@@ -60,21 +60,30 @@
 }
 
 - (void)actionChangeColor:(id)sender {
-
-    NSLog(@"color");
+    [[UserConfig instance] changeToNextColor];
+    [self.collectionView reloadData];
 }
 
 - (void)actionNoGrid:(id)sender {
-
+    if ([UserConfig instance].gridType != GridTypeNone) {
+        [UserConfig instance].gridType = GridTypeNone;
+        [self.collectionView reloadData];
+    }
 }
 
 
 - (void)actionTianGrid:(id)sender {
-
+    if ([UserConfig instance].gridType != GridTypeTian) {
+        [UserConfig instance].gridType = GridTypeTian;
+        [self.collectionView reloadData];
+    }
 }
 
 - (void)actionMiGrid:(id)sender {
-
+    if ([UserConfig instance].gridType != GridTypeMi) {
+        [UserConfig instance].gridType = GridTypeMi;
+        [self.collectionView reloadData];
+    }
 }
 
 
@@ -84,11 +93,13 @@
 
 - (__kindof UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     WordCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"kCellIdentify" forIndexPath:indexPath];
-    cell.backgroundColor = [UIColor colorWithRed:arc4random() % 255 / 255.0 green:arc4random() % 255 / 255.0 blue:arc4random() % 255 / 255.0 alpha:1];
+
+//    cell.backgroundColor = [UIColor colorWithRed:arc4random() % 255 / 255.0 green:arc4random() % 255 / 255.0 blue:arc4random() % 255 / 255.0 alpha:1];
 
     cell.textLabel.text = [self.text substringWithRange:NSMakeRange((NSUInteger) indexPath.row, 1)];
     cell.fontName = self.fontInfo.fontName;
     cell.gridType = [UserConfig instance].gridType;
+    cell.textLabel.textColor = [UserConfig instance].color;
 
     return cell;
 }

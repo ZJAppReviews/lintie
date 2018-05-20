@@ -54,11 +54,36 @@
         ];
         _gridType = GridTypeMi;
 
+        _color = [UIColor blackColor];
     }
 
     return self;
 }
 
+- (NSArray *)colors {
+    static NSArray *kColors = nil;
+    if (!kColors) {
+        kColors =  @[
+                [UIColor blackColor],
+                [UIColor redColor],
+                [UIColor blueColor]
+        ];
+    }
+    return kColors;
+}
+
+- (void)changeToNextColor {
+    int len = self.colors.count;
+
+    int i = [self.colors indexOfObject:self.color];
+    if (i == NSNotFound) {
+        self.color = [UIColor blackColor];
+    } else {
+
+        self.color = self.colors[(NSUInteger) (++i % len)];
+    }
+
+}
 
 - (NSArray<NSString *> *)fontNames {
 

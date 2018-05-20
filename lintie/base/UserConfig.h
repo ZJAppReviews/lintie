@@ -30,9 +30,13 @@
 
 @property(nonatomic, copy) FontInfo *fontInfo;
 
+@property (nonatomic, assign) UIColor *color;
+
 @property (nonatomic, assign) GridType gridType;
 
 + (UserConfig *)instance;
+
+- (void)changeToNextColor;
 
 - (NSArray<NSString *> *)fontNames;
 
