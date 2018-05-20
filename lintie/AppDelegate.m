@@ -30,7 +30,7 @@
 
 
     __auto_type archVC = [[ArchViewController alloc] init];
-    artistVC.title = @"间架";
+    archVC.title = @"间架";
     __auto_type navigationController2 = [[BaseNavigationController alloc] initWithRootViewController:archVC];
     navigationController2.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"间架" image:nil selectedImage:nil];
 
