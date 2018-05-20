@@ -36,7 +36,6 @@
 		2DE2EF8FD05EE7F3C9CD7A6F /* jj6.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E01F18D5CE6012991DBE /* jj6.html */; };
 		CE4107FB20B1966F0066B51D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4107FA20B196300066B51D /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		CEB7E0F920B1328D00DCA508 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB7E0F820B1328D00DCA508 /* AppDelegate.m */; };
-		CEB7E0FC20B1328D00DCA508 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB7E0FB20B1328D00DCA508 /* ViewController.m */; };
 		CEB7E0FF20B1328D00DCA508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E0FD20B1328D00DCA508 /* Main.storyboard */; };
 		CEB7E10120B1328D00DCA508 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E10020B1328D00DCA508 /* Assets.xcassets */; };
 		CEB7E10420B1328D00DCA508 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E10220B1328D00DCA508 /* LaunchScreen.storyboard */; };
@@ -107,8 +106,6 @@
 		CEB7E0F420B1328D00DCA508 /* lintie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lintie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB7E0F720B1328D00DCA508 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEB7E0F820B1328D00DCA508 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CEB7E0FA20B1328D00DCA508 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CEB7E0FB20B1328D00DCA508 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CEB7E0FE20B1328D00DCA508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEB7E10020B1328D00DCA508 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB7E10320B1328D00DCA508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -282,8 +279,6 @@
 			children = (
 				CEB7E0F720B1328D00DCA508 /* AppDelegate.h */,
 				CEB7E0F820B1328D00DCA508 /* AppDelegate.m */,
-				CEB7E0FA20B1328D00DCA508 /* ViewController.h */,
-				CEB7E0FB20B1328D00DCA508 /* ViewController.m */,
 				CEB7E0FD20B1328D00DCA508 /* Main.storyboard */,
 				CEB7E10020B1328D00DCA508 /* Assets.xcassets */,
 				CEB7E10220B1328D00DCA508 /* LaunchScreen.storyboard */,
@@ -463,7 +458,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEB7E0FC20B1328D00DCA508 /* ViewController.m in Sources */,
 				CEB7E10720B1328D00DCA508 /* main.m in Sources */,
 				CEB7E0F920B1328D00DCA508 /* AppDelegate.m in Sources */,
 				2DE2E89BCB2990FC8F3D1B5E /* GridDrawTool.mm in Sources */,

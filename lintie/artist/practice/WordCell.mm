@@ -51,7 +51,6 @@
 
 - (void)setFontName:(NSString *)fontName {
     _fontName = [fontName mutableCopy];
-    NSLog(@"fontName: %@", _fontName);
     self.textLabel.font = [UIFont fontWithName:fontName size:self.textLabel.frame.size.width];
 }
 
