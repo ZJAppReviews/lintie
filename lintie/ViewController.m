@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "GridDrawTool.h"
+#import "Literals.h"
+#import "LintieViewController.h"
 
 @interface TestView : UIView
 @end
@@ -26,18 +28,39 @@
 
 @end
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *lab;
 
 @end
 
 @implementation ViewController
+- (IBAction)button:(id)sender {
+    [self presentViewController:[[LintieViewController alloc] init] animated:YES completion:nil];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    __auto_type testView = [[TestView alloc] init];
-    testView.frame = self.view.frame;
-    testView.backgroundColor = [UIColor whiteColor];
-    [self.view addSubview:testView];
+    self.lab.text = @"田英章";
+    self.lab.font = [UIFont fontWithName:FoneName_TYZ_KS size:16];
+
+//    __auto_type testView = [[TestView alloc] init];
+//    testView.frame = self.view.frame;
+//    testView.backgroundColor = [UIColor whiteColor];
+//    [self.view addSubview:testView];
+//
+//
+    for(NSString *fontfamilyname in [UIFont familyNames])
+    {
+        NSLog(@"family:'%@'",fontfamilyname);
+        for(NSString *fontName in [UIFont fontNamesForFamilyName:fontfamilyname])
+        {
+            NSLog(@"\tfont:'%@'",fontName);
+        }
+        NSLog(@"-------------");
+    }
+
+
+
 }
 
 
