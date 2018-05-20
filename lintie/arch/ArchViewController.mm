@@ -19,9 +19,9 @@
 
 @interface ArchViewController ()
 
-@property (nonatomic, strong) UITableView *tableView;
+@property(nonatomic, strong) UITableView *tableView;
 
-@property (nonatomic, strong) NSArray *data;
+@property(nonatomic, strong) NSArray *data;
 @end
 
 @implementation ArchViewController
@@ -29,35 +29,39 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    __auto_type tv = [[UITableView alloc] initWithFrame:CGRectMake(0, StatusBar_Height + NavigationBar_Height,
+    __auto_type tv = [[UITableView alloc]                                               initWithFrame:CGRectMake(0, StatusBar_Height + NavigationBar_Height,
             Screen_Width, Screen_Height - 44 - StatusBar_Height - NavigationBar_Height) style:UITableViewStylePlain];
     [self.view addSubview:tv];
     self.tableView = tv;
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
-
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 
 
     [self.tableView registerClass:FourWordCell.class forCellReuseIdentifier:@"kCellIdentify"];
     [self.tableView registerClass:WebViewCell.class forCellReuseIdentifier:@"kCellIdentify1"];
 
 
-    
-
     self.data = @[
-            URL(@"间架结构摘要九十二法0.html"),
-            URL(@"间架结构摘要九十二法0.html"),
-            @"宇宙定甯"
+            URL(@"jj0.html"),
+            URL(@"jj1.html"),
+            @"宇宙定甯",
+            URL(@"jj2.html"),
+            @"至圣孟盖",
+            URL(@"jj3.html"),
+            @"勑部幼即",
+            URL(@"jj4.html"),
+            @"读蝀议绩"
     ];
-    
-    #undef ULR
-    
+
+#undef ULR
+
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.row == 0) {
         return 300;
-    } else if (indexPath.row % 2 == 1){ // html
+    } else if (indexPath.row % 2 == 1) { // html
         return 200;
     } else if (indexPath.row % 2 == 0) { // words
         return static_cast<CGFloat>(floor((Screen_Width - 5 * 3) / 4)) + 1;
@@ -82,8 +86,8 @@
 
         FourWordCell *cell = [tableView dequeueReusableCellWithIdentifier:@"kCellIdentify" forIndexPath:indexPath];
 
-        cell.textWords = self.data[static_cast<NSUInteger>(indexPath.row)] ;
-        cell.fontName = [UserConfig instance].fontInfo.fontLabel;
+        cell.textWords = self.data[static_cast<NSUInteger>(indexPath.row)];
+        cell.fontName = [UserConfig instance].fontInfo.fontName;
         cell.gridType = [UserConfig instance].gridType;
         cell.color = [UserConfig instance].color;
 

@@ -55,6 +55,8 @@
         _gridType = GridTypeMi;
 
         _color = [UIColor blackColor];
+
+        _fontInfo = _fontInfos.firstObject;
     }
 
     return self;

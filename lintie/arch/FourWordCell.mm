@@ -53,6 +53,8 @@
         [labels addObject:label];
     }
 
+    self.labels = labels;
+
 }
 
 - (void)setTextWords:(NSString *)textWords {
@@ -69,11 +71,19 @@
 - (void)setColor:(UIColor *)color {
     _color = color;
 
-    int len = _textWords.length;
-
-    for (int i = 0; (i < 4 && i < len); i++) {
+    for (int i = 0; i < 4; i++) {
 
         self.labels[static_cast<NSUInteger>(i)].textColor = color;
+    }
+}
+
+- (void)setFontName:(NSString *)fontName {
+    _fontName = [fontName mutableCopy];
+
+    for (int i = 0; i < 4; i++) {
+
+        self.labels[static_cast<NSUInteger>(i)].font = [UIFont fontWithName:fontName
+                                                                       size:self.labels[static_cast<NSUInteger>(i)].frame.size.width];;
     }
 }
 
