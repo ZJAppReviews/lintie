@@ -2,20 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIAppFonts</key>
-	<array>
-		<string>井柏然手写体.ttf</string>
-		<string>启功字体.ttf</string>
-		<string>徐静蕾手写体.ttf</string>
-		<string>德彪行书.ttf</string>
-		<string>毛泽东学书.ttf</string>
-		<string>田英章楷书.ttf</string>
-		<string>田英章行书.ttf</string>
-		<string>赵九江行书.ttf</string>
-		<string>雪纯字体.ttf</string>
-	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>临帖</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -32,6 +22,18 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>井柏然手写体.ttf</string>
+		<string>启功字体.ttf</string>
+		<string>徐静蕾手写体.ttf</string>
+		<string>德彪行书.ttf</string>
+		<string>毛泽东学书.ttf</string>
+		<string>田英章楷书.ttf</string>
+		<string>田英章行书.ttf</string>
+		<string>赵九江行书.ttf</string>
+		<string>雪纯字体.ttf</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
