@@ -7,7 +7,24 @@
 //
 
 #import "ViewController.h"
+#import "GridDrawTool.h"
 
+@interface TestView : UIView
+@end
+
+@implementation TestView
+
+- (void)drawRect:(CGRect)rect {
+    [super drawRect:rect];
+
+
+    [GridDrawTool drawMiWithCxt:UIGraphicsGetCurrentContext() rect:CGRectMake(19.33, 20, 40, 40) color:nil];
+
+    [GridDrawTool drawTianWithCxt:UIGraphicsGetCurrentContext() rect:CGRectMake(19.33, 70, 40, 40) color:nil];
+}
+
+
+@end
 @interface ViewController ()
 
 @end
@@ -16,14 +33,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    __auto_type testView = [[TestView alloc] init];
+    testView.frame = self.view.frame;
+    testView.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:testView];
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 
 @end

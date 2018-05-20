@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DE2E3DBBCACBBEABB6AACBE /* GridDrawTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E78BAA469F5C3F3DC96E /* GridDrawTool.mm */; };
 		CEB7E0F920B1328D00DCA508 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB7E0F820B1328D00DCA508 /* AppDelegate.m */; };
 		CEB7E0FC20B1328D00DCA508 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB7E0FB20B1328D00DCA508 /* ViewController.m */; };
 		CEB7E0FF20B1328D00DCA508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E0FD20B1328D00DCA508 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DE2E27B9D8F5FC536CBA4AD /* GridDrawTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridDrawTool.h; sourceTree = "<group>"; };
+		2DE2E78BAA469F5C3F3DC96E /* GridDrawTool.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GridDrawTool.mm; sourceTree = "<group>"; };
 		CEB7E0F420B1328D00DCA508 /* lintie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lintie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB7E0F720B1328D00DCA508 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEB7E0F820B1328D00DCA508 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DE2EBC60E1EEF640B692CFC /* grid */ = {
+			isa = PBXGroup;
+			children = (
+				2DE2E78BAA469F5C3F3DC96E /* GridDrawTool.mm */,
+				2DE2E27B9D8F5FC536CBA4AD /* GridDrawTool.h */,
+			);
+			path = grid;
+			sourceTree = "<group>";
+		};
 		CEB7E0EB20B1328D00DCA508 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +122,7 @@
 				CEB7E10220B1328D00DCA508 /* LaunchScreen.storyboard */,
 				CEB7E10520B1328D00DCA508 /* Info.plist */,
 				CEB7E10620B1328D00DCA508 /* main.m */,
+				2DE2EBC60E1EEF640B692CFC /* grid */,
 			);
 			path = lintie;
 			sourceTree = "<group>";
@@ -268,6 +281,7 @@
 				CEB7E0FC20B1328D00DCA508 /* ViewController.m in Sources */,
 				CEB7E10720B1328D00DCA508 /* main.m in Sources */,
 				CEB7E0F920B1328D00DCA508 /* AppDelegate.m in Sources */,
+				2DE2E3DBBCACBBEABB6AACBE /* GridDrawTool.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
