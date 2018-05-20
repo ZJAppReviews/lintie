@@ -5,11 +5,12 @@
 
 #import <UIKit/UIKit.h>
 #import "BaseViewController.h"
+#import "EditViewController.h"
 
 @class FontInfo;
 
 
-@interface LinTieViewController : BaseViewController
+@interface LinTieViewController : BaseViewController <EditViewControllerDelegate>
 
 @property (nonatomic, strong) FontInfo *fontInfo;
 

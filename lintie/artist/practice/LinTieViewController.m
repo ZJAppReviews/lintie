@@ -7,6 +7,7 @@
 #import "WordCell.h"
 #import "Literals.h"
 #import "UserConfig.h"
+#import "EditViewController.h"
 
 @interface LinTieViewController () <UICollectionViewDelegate, UICollectionViewDataSource>
 
@@ -30,7 +31,7 @@
     [self setupTextInput];
     [self setupCollectionView];
     [self setupToolBar];
-
+    self.title = self.fontInfo.fontLabel;
     self.textField.text = @"天道酬勤";
     self.text = @"天道酬勤";
 
@@ -67,13 +68,26 @@
 
 
 - (void)actionEdit:(id)actionEdit {
+    __auto_type editVC = [[EditViewController alloc] init];
+    editVC.text = self.text;
+    editVC.delegate = self;
 
+    [self.navigationController pushViewController:editVC animated:YES];
 }
 
 - (void)actionShow:(id)actionShow {
     self.text = self.textField.text;
     [self.collectionView reloadData];
 }
+
+#pragma mark - EditViewControllerDelegate
+
+- (void)finishEditWithText:(NSString *)text {
+    self.text = text;
+    self.textField.text = text;
+    [self.collectionView reloadData];
+}
+
 
 #pragma mark - UICollectionDelegate
 
