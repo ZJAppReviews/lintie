@@ -11,6 +11,7 @@
 		2DE2E179015336430906EEB9 /* ArtistViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E94BAE00A76205C82FF3 /* ArtistViewController.mm */; };
 		2DE2E1A5BC43C04840583669 /* 徐静蕾手写字体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E5A29E7BEEB17563A3A8 /* 徐静蕾手写字体.ttf */; };
 		2DE2E22A8785EFBC6E847C5D /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E6E543CADDBC1F21567F /* EditViewController.m */; };
+		2DE2E4BD0833157510710DCF /* BaseNavigationController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E024C967FC040EAD04E7 /* BaseNavigationController.mm */; };
 		2DE2E89BCB2990FC8F3D1B5E /* GridDrawTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E138F5FD9CF74929BC2A /* GridDrawTool.mm */; };
 		2DE2E908F9D87183A872E0B5 /* BaseViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2ED981E511458FCE9C769 /* BaseViewController.mm */; };
 		2DE2EC3081FED570700A0AB6 /* 田英章楷书.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E185ED8D29811355200C /* 田英章楷书.ttf */; };
@@ -18,6 +19,7 @@
 		2DE2EDE58796C61802FD92BC /* 启功字体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E1082F63C03D002CD456 /* 启功字体.ttf */; };
 		2DE2EE33812A33E63ED8FE37 /* WordCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E2B9D8000176DBB09611 /* WordCell.mm */; };
 		2DE2EE7B8112C53DB03E63CD /* UserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2EBAF0F29BF22E5D15546 /* UserConfig.m */; };
+		2DE2EEA113D0ABB614CF7F67 /* BaseTabBarController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E1968D970A8DBF09FEA7 /* BaseTabBarController.mm */; };
 		2DE2EEA58218F02C367BC66B /* LinTieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E81B7B3101BBB0D5FDEA /* LinTieViewController.m */; };
 		2DE2EF7A1D4AAD68B91A1DE6 /* 田英章行书.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E1390669F4EC50DDF4B5 /* 田英章行书.ttf */; };
 		CEB7E0F920B1328D00DCA508 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB7E0F820B1328D00DCA508 /* AppDelegate.m */; };
@@ -48,11 +50,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DE2E024C967FC040EAD04E7 /* BaseNavigationController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseNavigationController.mm; sourceTree = "<group>"; };
 		2DE2E1082F63C03D002CD456 /* 启功字体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "启功字体.ttf"; sourceTree = "<group>"; };
 		2DE2E138F5FD9CF74929BC2A /* GridDrawTool.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GridDrawTool.mm; sourceTree = "<group>"; };
 		2DE2E1390669F4EC50DDF4B5 /* 田英章行书.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "田英章行书.ttf"; sourceTree = "<group>"; };
 		2DE2E185ED8D29811355200C /* 田英章楷书.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "田英章楷书.ttf"; sourceTree = "<group>"; };
+		2DE2E1968D970A8DBF09FEA7 /* BaseTabBarController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseTabBarController.mm; sourceTree = "<group>"; };
 		2DE2E2B9D8000176DBB09611 /* WordCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WordCell.mm; sourceTree = "<group>"; };
+		2DE2E326990783AA96010371 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
 		2DE2E46810DF793F75A254B6 /* ArchViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ArchViewController.mm; sourceTree = "<group>"; };
 		2DE2E4EB50338E0E55E36B0C /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
 		2DE2E5A29E7BEEB17563A3A8 /* 徐静蕾手写字体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "徐静蕾手写字体.ttf"; sourceTree = "<group>"; };
@@ -70,6 +75,7 @@
 		2DE2ED193E5F7B78A2B8AA9A /* WordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordCell.h; sourceTree = "<group>"; };
 		2DE2ED981E511458FCE9C769 /* BaseViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseViewController.mm; sourceTree = "<group>"; };
 		2DE2EDC3F2BAAB8923B631C3 /* 田英章楷书简(字体).ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "田英章楷书简(字体).ttf"; sourceTree = "<group>"; };
+		2DE2EE2F5E1900291D67EAD3 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		CEB7E0F420B1328D00DCA508 /* lintie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lintie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB7E0F720B1328D00DCA508 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEB7E0F820B1328D00DCA508 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -152,6 +158,10 @@
 				2DE2EC349111A4AB03EF5053 /* Literals.h */,
 				2DE2ED981E511458FCE9C769 /* BaseViewController.mm */,
 				2DE2E81205384E0EF7DA4B2B /* BaseViewController.h */,
+				2DE2E024C967FC040EAD04E7 /* BaseNavigationController.mm */,
+				2DE2EE2F5E1900291D67EAD3 /* BaseNavigationController.h */,
+				2DE2E1968D970A8DBF09FEA7 /* BaseTabBarController.mm */,
+				2DE2E326990783AA96010371 /* BaseTabBarController.h */,
 			);
 			path = base;
 			sourceTree = "<group>";
@@ -386,6 +396,8 @@
 				2DE2E179015336430906EEB9 /* ArtistViewController.mm in Sources */,
 				2DE2EC7E760C3A2C73CD95B4 /* ArchViewController.mm in Sources */,
 				2DE2E908F9D87183A872E0B5 /* BaseViewController.mm in Sources */,
+				2DE2E4BD0833157510710DCF /* BaseNavigationController.mm in Sources */,
+				2DE2EEA113D0ABB614CF7F67 /* BaseTabBarController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

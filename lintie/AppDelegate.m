@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "ArtistViewController.h"
 #import "ArchViewController.h"
+#import "BaseNavigationController.h"
+#import "BaseTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -22,17 +24,17 @@
 
     __auto_type artistVC = [[ArtistViewController alloc] init];
     artistVC.title = @"名家";
-    __auto_type navigationController1 = [[UINavigationController alloc] initWithRootViewController:artistVC];
+    __auto_type navigationController1 = [[BaseNavigationController alloc] initWithRootViewController:artistVC];
     navigationController1.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"名家" image:nil selectedImage:nil];
 
 
 
     __auto_type archVC = [[ArchViewController alloc] init];
     artistVC.title = @"间架";
-    __auto_type navigationController2 = [[UINavigationController alloc] initWithRootViewController:archVC];
+    __auto_type navigationController2 = [[BaseNavigationController alloc] initWithRootViewController:archVC];
     navigationController2.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"间架" image:nil selectedImage:nil];
 
-    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    UITabBarController *tabBarController = [[BaseTabBarController alloc] init];
 
     tabBarController.viewControllers = @[navigationController1, navigationController2];
 
