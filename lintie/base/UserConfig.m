@@ -75,9 +75,9 @@
 }
 
 - (void)changeToNextColor {
-    int len = self.colors.count;
+    int len = (int)self.colors.count;
 
-    int i = [self.colors indexOfObject:self.color];
+    int i = (int)[self.colors indexOfObject:self.color];
     if (i == NSNotFound) {
         self.color = [UIColor blackColor];
     } else {

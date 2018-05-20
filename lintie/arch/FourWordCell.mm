@@ -59,7 +59,7 @@
 
 - (void)setTextWords:(NSString *)textWords {
     _textWords = [textWords mutableCopy];
-    int len = _textWords.length;
+    int len = (int)_textWords.length;
 
     for (int i = 0; (i < 4 && i < len); i++) {
 
