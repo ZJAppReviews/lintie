@@ -24,6 +24,7 @@
 @property(nonatomic, strong) NSArray *data;
 @end
 
+// TODO: webview 加载 滑动卡顿
 @implementation ArchViewController
 
 - (void)viewDidLoad {
@@ -60,9 +61,9 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.row == 0) {
-        return 300;
+        return 280;
     } else if (indexPath.row % 2 == 1) { // html
-        return 200;
+        return 150;
     } else if (indexPath.row % 2 == 0) { // words
         return static_cast<CGFloat>(floor((Screen_Width - 5 * 3) / 4)) + 1;
     }
@@ -80,6 +81,7 @@
         WebViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"kCellIdentify1" forIndexPath:indexPath];
 
         cell.url = self.data[static_cast<NSUInteger>(indexPath.row)];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
 
         return cell;
     } else if ([self.data[static_cast<NSUInteger>(indexPath.row)] isKindOfClass:NSString.class]) {
@@ -90,6 +92,7 @@
         cell.fontName = [UserConfig instance].fontInfo.fontName;
         cell.gridType = [UserConfig instance].gridType;
         cell.color = [UserConfig instance].color;
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
 
         return cell;
     }
