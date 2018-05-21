@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20918C4A9A68A6CAD83650FA /* Pods_lintieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AEE471D549F5593BB63DB69 /* Pods_lintieTests.framework */; };
 		2DE2E06B656B1BAD78067C1D /* jj3.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E24708484244126DFF43 /* jj3.html */; };
 		2DE2E179015336430906EEB9 /* ArtistViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E94BAE00A76205C82FF3 /* ArtistViewController.mm */; };
 		2DE2E187768B952737456FB6 /* WebViewCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2EACEF6F5A72A07AB291A /* WebViewCell.mm */; };
@@ -36,8 +37,11 @@
 		2DE2EEA58218F02C367BC66B /* LinTieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E81B7B3101BBB0D5FDEA /* LinTieViewController.m */; };
 		2DE2EEDC8D223CE8502D54B1 /* 雪纯字体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E9963714FB046010C441 /* 雪纯字体.ttf */; };
 		2DE2EF0423A885FDA8DDDDA9 /* jj1.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2EAD7F211908E258AAB8B /* jj1.html */; };
+		2DE2EF1F8E77246CEF3D76B6 /* requirements.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2EE85B0FC4B2C7EE6BCD1 /* requirements.txt */; };
 		2DE2EF7A1D4AAD68B91A1DE6 /* 田英章行书.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E1390669F4EC50DDF4B5 /* 田英章行书.ttf */; };
 		2DE2EF8FD05EE7F3C9CD7A6F /* jj6.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E01F18D5CE6012991DBE /* jj6.html */; };
+		4C04C0AA4D04ABABB7DDB916 /* Pods_lintie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6026F928BCEA120325ABA56 /* Pods_lintie.framework */; };
+		CE2742C820B3258E005C0469 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE2742C720B3258E005C0469 /* GoogleService-Info.plist */; };
 		CE38EC3520B1E959003175FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE38EC3420B1E959003175FB /* Assets.xcassets */; };
 		CE4107FB20B1966F0066B51D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4107FA20B196300066B51D /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		CEB7E0F920B1328D00DCA508 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB7E0F820B1328D00DCA508 /* AppDelegate.m */; };
@@ -46,6 +50,7 @@
 		CEB7E10720B1328D00DCA508 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB7E10620B1328D00DCA508 /* main.m */; };
 		CEB7E11120B1328D00DCA508 /* lintieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB7E11020B1328D00DCA508 /* lintieTests.m */; };
 		CEB7E11C20B1328D00DCA508 /* lintieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB7E11B20B1328D00DCA508 /* lintieUITests.m */; };
+		D28A554D04475CBD04C2BFF8 /* Pods_lintieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776FE9D99A56FAFFFFD46467 /* Pods_lintieUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +71,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24048E7A28555A86A836D7C5 /* Pods-lintieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lintieUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lintieUITests/Pods-lintieUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2DE2E01F18D5CE6012991DBE /* jj6.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jj6.html; sourceTree = "<group>"; };
 		2DE2E024C967FC040EAD04E7 /* BaseNavigationController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseNavigationController.mm; sourceTree = "<group>"; };
 		2DE2E08C5AE6405FD77F1F79 /* jj4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jj4.html; sourceTree = "<group>"; };
@@ -109,7 +115,16 @@
 		2DE2ED981E511458FCE9C769 /* BaseViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseViewController.mm; sourceTree = "<group>"; };
 		2DE2EE2F5E1900291D67EAD3 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		2DE2EE57A6033071F22C6C14 /* 毛泽东学书.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "毛泽东学书.ttf"; sourceTree = "<group>"; };
+		2DE2EE85B0FC4B2C7EE6BCD1 /* requirements.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = requirements.txt; sourceTree = "<group>"; };
 		2DE2EED6627C17D0BEE23927 /* jj5.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jj5.html; sourceTree = "<group>"; };
+		4E7D9F49A593F65E930C02C5 /* Pods-lintie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lintie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lintie/Pods-lintie.debug.xcconfig"; sourceTree = "<group>"; };
+		598CED562035FA4C3256AFE9 /* Pods-lintieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lintieUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lintieUITests/Pods-lintieUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6AEE471D549F5593BB63DB69 /* Pods_lintieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lintieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		776FE9D99A56FAFFFFD46467 /* Pods_lintieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lintieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96D72A6D3CA6A39FA272A85 /* Pods-lintie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lintie.release.xcconfig"; path = "Pods/Target Support Files/Pods-lintie/Pods-lintie.release.xcconfig"; sourceTree = "<group>"; };
+		B231C9ABC10E055A849ACFA6 /* Pods-lintieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lintieTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lintieTests/Pods-lintieTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF3EDDB76416CFB4A0F2BEB8 /* Pods-lintieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lintieTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lintieTests/Pods-lintieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE2742C720B3258E005C0469 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CE38EC3420B1E959003175FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4107FA20B196300066B51D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		CEB7E0F420B1328D00DCA508 /* lintie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lintie.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +140,7 @@
 		CEB7E11720B1328D00DCA508 /* lintieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lintieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB7E11B20B1328D00DCA508 /* lintieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lintieUITests.m; sourceTree = "<group>"; };
 		CEB7E11D20B1328D00DCA508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6026F928BCEA120325ABA56 /* Pods_lintie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lintie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4107FB20B1966F0066B51D /* WebKit.framework in Frameworks */,
+				4C04C0AA4D04ABABB7DDB916 /* Pods_lintie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +157,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20918C4A9A68A6CAD83650FA /* Pods_lintieTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,12 +165,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D28A554D04475CBD04C2BFF8 /* Pods_lintieUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17A72D15223B7B45FCF3F515 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E7D9F49A593F65E930C02C5 /* Pods-lintie.debug.xcconfig */,
+				A96D72A6D3CA6A39FA272A85 /* Pods-lintie.release.xcconfig */,
+				BF3EDDB76416CFB4A0F2BEB8 /* Pods-lintieTests.debug.xcconfig */,
+				B231C9ABC10E055A849ACFA6 /* Pods-lintieTests.release.xcconfig */,
+				24048E7A28555A86A836D7C5 /* Pods-lintieUITests.debug.xcconfig */,
+				598CED562035FA4C3256AFE9 /* Pods-lintieUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2DE2E2E79ACA4C3EB6F58168 /* practice */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +293,9 @@
 			isa = PBXGroup;
 			children = (
 				CE4107FA20B196300066B51D /* WebKit.framework */,
+				F6026F928BCEA120325ABA56 /* Pods_lintie.framework */,
+				6AEE471D549F5593BB63DB69 /* Pods_lintieTests.framework */,
+				776FE9D99A56FAFFFFD46467 /* Pods_lintieUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -273,6 +308,8 @@
 				CEB7E11A20B1328D00DCA508 /* lintieUITests */,
 				CEB7E0F520B1328D00DCA508 /* Products */,
 				CE4107F920B196300066B51D /* Frameworks */,
+				2DE2EE85B0FC4B2C7EE6BCD1 /* requirements.txt */,
+				17A72D15223B7B45FCF3F515 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -289,6 +326,7 @@
 		CEB7E0F620B1328D00DCA508 /* lintie */ = {
 			isa = PBXGroup;
 			children = (
+				CE2742C720B3258E005C0469 /* GoogleService-Info.plist */,
 				CE38EC3420B1E959003175FB /* Assets.xcassets */,
 				CEB7E0F720B1328D00DCA508 /* AppDelegate.h */,
 				CEB7E0F820B1328D00DCA508 /* AppDelegate.m */,
@@ -329,9 +367,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEB7E12020B1328D00DCA508 /* Build configuration list for PBXNativeTarget "lintie" */;
 			buildPhases = (
+				25DE4FDB33D26326C4569D9A /* [CP] Check Pods Manifest.lock */,
 				CEB7E0F020B1328D00DCA508 /* Sources */,
 				CEB7E0F120B1328D00DCA508 /* Frameworks */,
 				CEB7E0F220B1328D00DCA508 /* Resources */,
+				62012A3A7A34DF5F4C54306C /* [CP] Embed Pods Frameworks */,
+				420C931B96C5F798951011CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -346,6 +387,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEB7E12320B1328D00DCA508 /* Build configuration list for PBXNativeTarget "lintieTests" */;
 			buildPhases = (
+				C89C82F6CEFD7C7B717F1FEF /* [CP] Check Pods Manifest.lock */,
 				CEB7E10820B1328D00DCA508 /* Sources */,
 				CEB7E10920B1328D00DCA508 /* Frameworks */,
 				CEB7E10A20B1328D00DCA508 /* Resources */,
@@ -364,6 +406,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEB7E12620B1328D00DCA508 /* Build configuration list for PBXNativeTarget "lintieUITests" */;
 			buildPhases = (
+				1B1237E6AB62D8A6F1918735 /* [CP] Check Pods Manifest.lock */,
 				CEB7E11320B1328D00DCA508 /* Sources */,
 				CEB7E11420B1328D00DCA508 /* Frameworks */,
 				CEB7E11520B1328D00DCA508 /* Resources */,
@@ -447,9 +490,11 @@
 				2DE2E4C8D7F907275AC47865 /* 毛泽东学书.ttf in Resources */,
 				2DE2EB5F0F8BFEB50F0499E8 /* 德彪行书.ttf in Resources */,
 				2DE2EEDC8D223CE8502D54B1 /* 雪纯字体.ttf in Resources */,
+				CE2742C820B3258E005C0469 /* GoogleService-Info.plist in Resources */,
 				2DE2E67E910922AD22AE84CF /* 井柏然手写体.ttf in Resources */,
 				2DE2EBF66BCE00B2EA1D730F /* 赵九江行书.ttf in Resources */,
 				2DE2E6E528A181EC425CF721 /* 徐静蕾手写体.ttf in Resources */,
+				2DE2EF1F8E77246CEF3D76B6 /* requirements.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +513,111 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B1237E6AB62D8A6F1918735 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lintieUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25DE4FDB33D26326C4569D9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lintie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		420C931B96C5F798951011CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-lintie/Pods-lintie-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lintie/Pods-lintie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62012A3A7A34DF5F4C54306C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-lintie/Pods-lintie-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/YBPopupMenu/YBPopupMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YBPopupMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lintie/Pods-lintie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C89C82F6CEFD7C7B717F1FEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lintieTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CEB7E0F020B1328D00DCA508 /* Sources */ = {
@@ -652,6 +802,7 @@
 		};
 		CEB7E12120B1328D00DCA508 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E7D9F49A593F65E930C02C5 /* Pods-lintie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -666,6 +817,7 @@
 		};
 		CEB7E12220B1328D00DCA508 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A96D72A6D3CA6A39FA272A85 /* Pods-lintie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -680,6 +832,7 @@
 		};
 		CEB7E12420B1328D00DCA508 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF3EDDB76416CFB4A0F2BEB8 /* Pods-lintieTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -694,6 +847,7 @@
 		};
 		CEB7E12520B1328D00DCA508 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B231C9ABC10E055A849ACFA6 /* Pods-lintieTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -708,6 +862,7 @@
 		};
 		CEB7E12720B1328D00DCA508 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24048E7A28555A86A836D7C5 /* Pods-lintieUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = lintieUITests/Info.plist;
@@ -721,6 +876,7 @@
 		};
 		CEB7E12820B1328D00DCA508 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 598CED562035FA4C3256AFE9 /* Pods-lintieUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = lintieUITests/Info.plist;

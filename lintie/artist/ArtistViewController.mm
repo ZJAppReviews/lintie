@@ -32,11 +32,16 @@
     return [UserConfig instance].fontInfos.count;
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 60;
+}
+
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     __auto_type cell = [tableView dequeueReusableCellWithIdentifier:@"kCellIdentify" forIndexPath:indexPath];
     cell.textLabel.text = [UserConfig instance].fontInfos[static_cast<NSUInteger>(indexPath.row)].fontLabel;
     cell.textLabel.font = [UIFont fontWithName:[UserConfig instance].fontInfos[static_cast<NSUInteger>(indexPath.row)].fontName
-                                          size:17];
+                                          size:25];
     return cell;
 }
 

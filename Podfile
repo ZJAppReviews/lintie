@@ -6,6 +6,16 @@ target 'lintie' do
   use_frameworks!
   pod 'YBPopupMenu', '~> 1.1.2'
 
+  pod 'IQKeyboardManager'
+  
+  pod 'Firebase/Core'
+  pod 'Firebase/Crash'
+  pod 'Firebase/Performance'
+
+  pod 'Firebase/Auth'
+  pod 'FirebaseUI/Phone'
+
+
   # Pods for lintie
 
   target 'lintieTests' do

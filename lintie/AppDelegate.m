@@ -11,6 +11,10 @@
 #import "ArchViewController.h"
 #import "BaseNavigationController.h"
 #import "BaseTabBarController.h"
+#import "FUIAuth.h"
+#import "FUIPhoneAuth.h"
+@import Firebase;
+#import <IQKeyboardManager/IQKeyboardManager.h>
 
 @interface AppDelegate ()
 
@@ -20,6 +24,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [FIRApp configure];
+    [IQKeyboardManager sharedManager].enable = YES;
+
+    FUIAuth *authUI = [FUIAuth defaultAuthUI];
+    NSArray<id<FUIAuthProvider>> *providers = @[
+            [[FUIPhoneAuth alloc] initWithAuthUI:[FUIAuth defaultAuthUI]]
+    ];
+    authUI.providers = providers;
+
+    // You need to adopt a FUIAuthDelegate protocol to receive callback
+    authUI.delegate = self;
 
 
     __auto_type artistVC = [[ArtistViewController alloc] init];
@@ -44,6 +59,9 @@
 
     [self.window makeKeyAndVisible];
 
+    [tabBarController presentViewController:[authUI authViewController]  animated:YES completion:^{
+
+    }];
 //    for(NSString *fontfamilyname in [UIFont familyNames])
 //    {
 //        NSLog(@"family:'%@'",fontfamilyname);
