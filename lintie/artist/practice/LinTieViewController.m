@@ -30,8 +30,10 @@
     [self setupCollectionView];
     [self setupToolBar];
     self.title = self.fontInfo.fontLabel;
-    self.textField.text = @"天道酬勤";
-    self.text = @"天道酬勤";
+
+
+    self.textField.text = [[NSUserDefaults standardUserDefaults] stringForKey:@"text"] ?: @"天道酬勤" ;
+    self.text = [[NSUserDefaults standardUserDefaults] stringForKey:@"text"] ?: @"天道酬勤";
 
 }
 
@@ -83,6 +85,7 @@
 
 - (void)actionShow:(id)actionShow {
     self.text = self.textField.text;
+    [[NSUserDefaults standardUserDefaults] setObject:_text forKey:@"text"];
     [self.collectionView reloadData];
 }
 
@@ -91,6 +94,8 @@
 - (void)finishEditWithText:(NSString *)text {
     self.text = text;
     self.textField.text = text;
+
+    [[NSUserDefaults standardUserDefaults] setObject:_text forKey:@"text"];
     [self.collectionView reloadData];
 }
 

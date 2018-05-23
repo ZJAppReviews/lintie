@@ -11,6 +11,7 @@
 #import "ArchViewController.h"
 #import "BaseNavigationController.h"
 #import "BaseTabBarController.h"
+#import <IQKeyboardManager/IQKeyboardManager.h>
 
 @interface AppDelegate ()
 
@@ -20,7 +21,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
+    [IQKeyboardManager sharedManager].enable = YES;
 
     __auto_type artistVC = [[ArtistViewController alloc] init];
     artistVC.title = @"名家";

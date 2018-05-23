@@ -6,6 +6,8 @@ target 'lintie' do
   use_frameworks!
   pod 'YBPopupMenu', '~> 1.1.2'
 
+  pod 'IQKeyboardManager'
+
   # Pods for lintie
 
   target 'lintieTests' do
