@@ -34,6 +34,7 @@
     self.backgroundColor = [UIColor whiteColor];
     UILabel *label = [[UILabel alloc] init];
     label.frame = self.bounds;
+    label.textAlignment = NSTextAlignmentCenter;
     [self.contentView addSubview:label];
 
     self.textLabel = label;
@@ -53,7 +54,7 @@
 
 - (void)setFontName:(NSString *)fontName {
     _fontName = [fontName mutableCopy];
-    self.textLabel.font = [UIFont fontWithName:fontName size:self.textLabel.frame.size.width];
+    self.textLabel.font = [UIFont fontWithName:fontName size:static_cast<CGFloat>(self.textLabel.frame.size.width * 0.8)];
 }
 
 

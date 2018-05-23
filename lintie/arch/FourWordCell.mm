@@ -48,6 +48,7 @@
     for (int i = 0; i < 4; i++) {
         self.backgroundColor = [UIColor whiteColor];
         UILabel *label = [[UILabel alloc] init];
+        label.textAlignment = NSTextAlignmentCenter;
         label.frame = frames[i];
         [self.contentView addSubview:label];
         [labels addObject:label];
@@ -83,7 +84,7 @@
     for (int i = 0; i < 4; i++) {
 
         self.labels[static_cast<NSUInteger>(i)].font = [UIFont fontWithName:fontName
-                                                                       size:self.labels[static_cast<NSUInteger>(i)].frame.size.width];;
+                                                                       size:static_cast<CGFloat>(self.labels[static_cast<NSUInteger>(i)].frame.size.width * 0.8)];;
     }
 }
 
