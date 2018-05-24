@@ -18,7 +18,10 @@
 "<head><title>间架结构摘要九十二法</title>\n"\
 "    <meta charset='utf-8'>\n"\
 "    <link href='https://dn-maxiang.qbox.me/res-min/themes/marxico.css' rel='stylesheet'>\n"\
-"    <style></style>\n"\
+"    <style>*:not(input,textarea) {\
+-webkit-touch-callout: none;\
+-webkit-user-select: none; /* Disable selection/Copy of UIWebView */\
+}</style>\n"\
 "</head>\n"\
 "<body>\n"\
 "<div id='preview-contents' class='note-content'>\n"\
