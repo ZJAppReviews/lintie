@@ -15,6 +15,7 @@
 		2DE2E4C8D7F907275AC47865 /* 毛泽东学书.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2EE57A6033071F22C6C14 /* 毛泽东学书.ttf */; };
 		2DE2E51A43BFA2CF39021870 /* jj0.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E5CCF6C5217DC6D4E80A /* jj0.html */; };
 		2DE2E67E910922AD22AE84CF /* 井柏然手写体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2EB40F8407523065DB10C /* 井柏然手写体.ttf */; };
+		2DE2E6AB02FF7F297D9F4DB2 /* DescriptionCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E6B57A8CCA31A8BC53D4 /* DescriptionCell.mm */; };
 		2DE2E6E528A181EC425CF721 /* 徐静蕾手写体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E9760159AA2C62B487C0 /* 徐静蕾手写体.ttf */; };
 		2DE2E89BCB2990FC8F3D1B5E /* GridDrawTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E138F5FD9CF74929BC2A /* GridDrawTool.mm */; };
 		2DE2E908F9D87183A872E0B5 /* BaseViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2ED981E511458FCE9C769 /* BaseViewController.mm */; };
@@ -28,6 +29,7 @@
 		2DE2ECAFA714063A888877EF /* FourWordCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E335ADEDD602B28DDECC /* FourWordCell.mm */; };
 		2DE2ECB0BD768FAADD9078BE /* jj2.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2EA29CA8C56552BBCEA6B /* jj2.html */; };
 		2DE2ECDC1FAEBDEA31939A70 /* jj4.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E08C5AE6405FD77F1F79 /* jj4.html */; };
+		2DE2ED3320D7DF3EE87B4A18 /* TitleCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E64C2F430292E7882757 /* TitleCell.mm */; };
 		2DE2EDE58796C61802FD92BC /* 启功字体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E1082F63C03D002CD456 /* 启功字体.ttf */; };
 		2DE2EE24CA81F59EC15C8217 /* 1.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2E65DD5154D7F0870B2BE /* 1.html */; };
 		2DE2EE33812A33E63ED8FE37 /* WordCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2E2B9D8000176DBB09611 /* WordCell.mm */; };
@@ -73,6 +75,7 @@
 		2DE2E024C967FC040EAD04E7 /* BaseNavigationController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseNavigationController.mm; sourceTree = "<group>"; };
 		2DE2E08C5AE6405FD77F1F79 /* jj4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jj4.html; sourceTree = "<group>"; };
 		2DE2E1082F63C03D002CD456 /* 启功字体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "启功字体.ttf"; sourceTree = "<group>"; };
+		2DE2E12F6A8CF2E036BF365D /* TitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleCell.h; sourceTree = "<group>"; };
 		2DE2E138F5FD9CF74929BC2A /* GridDrawTool.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GridDrawTool.mm; sourceTree = "<group>"; };
 		2DE2E1390669F4EC50DDF4B5 /* 田英章行书.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "田英章行书.ttf"; sourceTree = "<group>"; };
 		2DE2E185ED8D29811355200C /* 田英章楷书.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "田英章楷书.ttf"; sourceTree = "<group>"; };
@@ -85,8 +88,10 @@
 		2DE2E4EB50338E0E55E36B0C /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
 		2DE2E50C00AE29E3EA8371F8 /* jj7.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jj7.html; sourceTree = "<group>"; };
 		2DE2E5CCF6C5217DC6D4E80A /* jj0.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jj0.html; sourceTree = "<group>"; };
+		2DE2E64C2F430292E7882757 /* TitleCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TitleCell.mm; sourceTree = "<group>"; };
 		2DE2E65DD5154D7F0870B2BE /* 1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1.html; sourceTree = "<group>"; };
 		2DE2E6986CE02105DA3A604C /* WebViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewCell.h; sourceTree = "<group>"; };
+		2DE2E6B57A8CCA31A8BC53D4 /* DescriptionCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DescriptionCell.mm; sourceTree = "<group>"; };
 		2DE2E6D60589124E59CA94DE /* FourWordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourWordCell.h; sourceTree = "<group>"; };
 		2DE2E6E543CADDBC1F21567F /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
 		2DE2E783A742F9692951951C /* ArtistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistViewController.h; sourceTree = "<group>"; };
@@ -113,6 +118,7 @@
 		2DE2EE2F5E1900291D67EAD3 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		2DE2EE57A6033071F22C6C14 /* 毛泽东学书.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "毛泽东学书.ttf"; sourceTree = "<group>"; };
 		2DE2EED6627C17D0BEE23927 /* jj5.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jj5.html; sourceTree = "<group>"; };
+		2DE2EFADB716DB48C67D3FEF /* DescriptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionCell.h; sourceTree = "<group>"; };
 		34C8A210E674611A7A1A55C7 /* Pods_lintie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lintie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		428456823B16290E9ADA3937 /* Pods_lintieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lintieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE796719B1FD40A7AB612F6 /* Pods-lintieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lintieTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lintieTests/Pods-lintieTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -190,6 +196,10 @@
 				2DE2E6986CE02105DA3A604C /* WebViewCell.h */,
 				2DE2E335ADEDD602B28DDECC /* FourWordCell.mm */,
 				2DE2E6D60589124E59CA94DE /* FourWordCell.h */,
+				2DE2E64C2F430292E7882757 /* TitleCell.mm */,
+				2DE2E12F6A8CF2E036BF365D /* TitleCell.h */,
+				2DE2E6B57A8CCA31A8BC53D4 /* DescriptionCell.mm */,
+				2DE2EFADB716DB48C67D3FEF /* DescriptionCell.h */,
 			);
 			path = arch;
 			sourceTree = "<group>";
@@ -550,11 +560,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-lintie/Pods-lintie-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/YBPopupMenu/YBPopupMenu.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YBPopupMenu.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -601,6 +613,8 @@
 				2DE2EEA113D0ABB614CF7F67 /* BaseTabBarController.mm in Sources */,
 				2DE2E187768B952737456FB6 /* WebViewCell.mm in Sources */,
 				2DE2ECAFA714063A888877EF /* FourWordCell.mm in Sources */,
+				2DE2ED3320D7DF3EE87B4A18 /* TitleCell.mm in Sources */,
+				2DE2E6AB02FF7F297D9F4DB2 /* DescriptionCell.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

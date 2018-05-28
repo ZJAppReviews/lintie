@@ -1,20 +1,24 @@
 PODS:
   - IQKeyboardManager (6.0.3)
+  - Masonry (1.1.0)
   - YBPopupMenu (1.1.2)
 
 DEPENDENCIES:
   - IQKeyboardManager
+  - Masonry
   - YBPopupMenu (~> 1.1.2)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - IQKeyboardManager
+    - Masonry
     - YBPopupMenu
 
 SPEC CHECKSUMS:
   IQKeyboardManager: c390e612f4b98c8fd748016470138537dc163ead
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   YBPopupMenu: 6efb286385d95ba5f97c58b8464ec873645e8764
 
-PODFILE CHECKSUM: 04b0a7fc8089a9a442171c7aa4bc9fe8111cf23b
+PODFILE CHECKSUM: 45a93228c6db7ee1245a84b8e712737919bcac6e
 
 COCOAPODS: 1.5.2

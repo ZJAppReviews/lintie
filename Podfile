@@ -7,7 +7,7 @@ target 'lintie' do
   pod 'YBPopupMenu', '~> 1.1.2'
 
   pod 'IQKeyboardManager'
-
+  pod 'Masonry'
   # Pods for lintie
 
   target 'lintieTests' do
